@@ -1,5 +1,5 @@
 title = "Bydłosoft"
-baseURL = "https://bydłosoft.com"
+baseURL = "https://bydlosoft.com"
 url = "/"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
