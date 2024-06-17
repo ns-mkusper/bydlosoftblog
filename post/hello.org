@@ -13,7 +13,6 @@ Stay tuned! I have a number of things in flight I'm planning to publish as time 
 
 ** Future Posts
 *** Programming
-- Working with the WinAPI from Rust for Reserve Engineering
 - High-performance Python
 - [[https://docs.python.org/3/whatsnew/3.12.html#optimizations][Python 3.12 optimizations]]
 - Why I still use [[https://osdn.net/projects/mingw/][MinGW]] and [[https://www.msys2.org/][MSYS]]
@@ -35,6 +34,7 @@ Stay tuned! I have a number of things in flight I'm planning to publish as time 
   
 *** Reverse Engineering
 - Creating a SoftICE clone in 2025
+- Working with the WinAPI in Rust for RE
 
 *** Emacs
 - Signal processing for Emacs shell on Windows
