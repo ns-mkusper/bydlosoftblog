@@ -1,0 +1,12 @@
+#+hugo_base_dir: ../
+#+hugo_section: misc
+#+hugo_auto_set_lastmod: t
+
+#+title: Contact
+#+hugo_tags: contact
+
+* Socials
+- [[mailto:mkusper@bydlosoft.com][Email]]
+- [[https://github.com/ns-mkusper][Github]]
+- [[https://gitlab.com/mkusper][Gitlab]]
+- [[https://www.goodreads.com/user/show/33494702-tadek][Goodreads]]

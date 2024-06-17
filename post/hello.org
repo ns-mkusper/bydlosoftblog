@@ -5,4 +5,53 @@
 #+title: Blog Reboot
 #+hugo_tags: misc ideas
 
-I've decided to reboot this development blog
+* Blog Reboot
+
+I've decided to reboot this development blog after years of stasis. With the last post being in 2016 I'm starting anew to refocus on what topics in Software and personal development I'm interested in today.
+
+Stay tuned! I have a number of things in flight I'm planning the publishing as time allows:
+
+** Future Posts
+*** Programming
+- Working with the WinAPI from Rust for Reserve Engineering
+- High-performance Python
+- [[https://docs.python.org/3/whatsnew/3.12.html#optimizations][Python 3.12 optimizations]]
+- Why do I still use [[https://osdn.net/projects/mingw/][MinGW]] and [[https://www.msys2.org/][MSYS]]?
+- Performance comparison of popular Kafka libraries
+  
+*** Machine Learning
+- Continuous learning in production with Kafka
+- Fine-tuning foundational LLMs with fine literature in my home lab
+- Building an open-source recommendation engine for Classic Literature
+
+*** Data Science / Data Engineering
+- Cleansing and storing book data ([[https://libgen.is/repository_torrent/][LibGen]])
+- My Kaggle experience  
+  
+*** Platform Engineering
+- Proxying services through Jupyter
+- Moving from Terraform HCL to Terraform CDK
+- Options for free cloud credits for research projects
+  
+*** *Emacs*
+- Signal processing for Emacs shell on Windows
+- Emacs as a database client
+- Portable debugging config in Emacs
+- Optimal-performance remote-editing Emacs config
+- Emacs config for Kaggle
+- Overview of my Emacs config
+
+*** Book Reviews
+- [[https://www.goodreads.com/book/show/62294487-the-little-learner][The Little Learner: A Straight Line to Deep Learning]] by Daniel P. Friedman
+- [[https://www.oreilly.com/library/view/building-machine-learning/9781492045106/][Building Machine Learning Powered Applications]] by Emmanuel Ameisen
+- [[https://www.oreilly.com/library/view/architecting-data-and/9781098151607/][Architecting Data and Machine Learning Platforms]] by Marco Tranquillin, Valliappa Lakshmanan, Firat Tekiner
+- Old /C++ Gems/ books
+  
+*** Home Lab
+- Why ensuring directplay-compatibility is the best optimization for [[https://plex.tv/][Plex]]
+- Hardware overview of my home lab & how to optimize for cost and performance
+- Storing and processing petabyte-scale data ([[https://libgen.is/repository_torrent/][LibGen]]) on consumer hardware
+
+*** Training & Self-Improvement
+- GoldenCheetah development
+- Building good habits with [[https://orgmode.org/manual/Tracking-your-habits.html][org-habit]]

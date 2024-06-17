@@ -1,5 +1,6 @@
-title = "Bydlosoft"
-baseURL = "https://bydlosoft.com"
+title = "Bydłosoft"
+baseURL = "https://bydłosoft.com"
+url = "/"
 theme = "researcher"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
@@ -9,21 +10,21 @@ copyright = "Released under the MIT license."
 
 [params]
   author = "Mark Kusper"
-  description = "Personal development blog: technology, software, data, artificial intelligence, reverse engineering and personal development."
+  description = "Software, Data, Artificial Intelligence, Reverse Engineering and Personal Development."
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
   info = [
-    "- Software Developer -",
+    "- Software Engineer -",
   ]
   subinfo = [
     "Big Data",
     "Machine Learning",
     "Reverse Engineering",
-    "Personal Development",    
-  ]  
+    "Personal Development",
+  ]
   [params.footer]
-    text = "By Mark Kusper"
-    url = "https://github.com/ns-mkusper"
+    text = "[ Released under the MIT license. ]"
+    url = "https://opensource.org/license/mit"
   [params.style]  # appearance options (can be omitted)
     fontFamily = "Inconsolata"
     fontSize = "14pt"
@@ -40,9 +41,13 @@ copyright = "Released under the MIT license."
     title = "Gitlab"
     url = "https://gitlab.com/mkusper"
   [[params.socialIcons]]
+    icon = "fab fa-goodreads"
+    title = "Goodreads"
+    url = "https://www.goodreads.com/user/show/33494702-tadek"    
+  [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "E-mail"
-    url = "mailto:mkusper@bydlosoft.com"
+    url = "mailto:mkusper@bydlosoft.com"    
   # [[params.socialIcons]]
   #   icon = "ai ai-google-scholar"
   #   title = "Scholar"
@@ -53,9 +58,17 @@ copyright = "Released under the MIT license."
 
 [menu]
   [[menu.main]]
-    name = "About"
-    url = "/"
+    name = "Posts"
+    url = "/posts"
     weight = 1
+  [[menu.main]]
+    name = "Projects"
+    url = "/misc/projects"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/misc/about"
+    weight = 2
   # [[menu.main]]
   #   name = "Resume"
   #   url = "/resume.pdf"
@@ -65,7 +78,7 @@ copyright = "Released under the MIT license."
   #   weight = 2
   [[menu.main]]
     name = "Contact"
-    url = "/contact"
+    url = "/misc/contact"
     weight = 3
 
 [markup.goldmark.renderer]

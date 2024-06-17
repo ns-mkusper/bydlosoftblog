@@ -1,0 +1,8 @@
+#+hugo_base_dir: ../
+#+hugo_section: misc
+#+hugo_auto_set_lastmod: t
+
+#+title: Projects
+#+hugo_tags: projects
+
+TODO
