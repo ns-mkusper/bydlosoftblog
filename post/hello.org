@@ -31,6 +31,7 @@ Stay tuned! I have a number of things in flight I'm planning to publish as time 
 - Proxying services through Jupyter
 - Moving from Terraform HCL to Terraform CDK
 - Options for free cloud credits for research projects
+- Developer environments with Coder
   
 *** Reverse Engineering
 - Creating a SoftICE clone in 2025
