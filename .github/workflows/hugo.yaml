@@ -29,10 +29,10 @@ jobs:
       run: mkdir -p ~/.emacs.d/ && touch ~/.emacs.d/.org-id-locations
 
     - name: Export Posts Org file to Markdown
-      run: emacs ./post/*.org --batch -L ../tomelr -L ../ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
+      run: for i in ./post/*.org;do emacs "$i" --batch -L ../tomelr -L ../ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill;done
 
     - name: Export Misc Org file to Markdown
-      run: emacs ./misc/*.org --batch -L ../tomelr -L ../ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
+      run: for i in ./misc/*.org;do emacs "$i" --batch -L ../tomelr -L ../ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill;done
 
     - name: create index
       run: cp ./content/misc/about.md ./content/_index.md
