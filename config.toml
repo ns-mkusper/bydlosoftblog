@@ -39,7 +39,7 @@ copyright = "Released under the MIT license."
   [[params.socialIcons]]
     icon = ""
     title = ""
-    url = ""   
+    url = ""  
   [[params.socialIcons]]
     icon = "fab fa-gitlab"
     title = "Gitlab"
@@ -47,7 +47,7 @@ copyright = "Released under the MIT license."
   [[params.socialIcons]]
     icon = ""
     title = ""
-    url = ""     
+    url = ""    
   [[params.socialIcons]]
     icon = "fab fa-goodreads"
     title = "Goodreads"
@@ -55,7 +55,7 @@ copyright = "Released under the MIT license."
   [[params.socialIcons]]
     icon = ""
     title = ""
-    url = ""     
+    url = ""    
   [[params.socialIcons]]
     icon = "fab fa-strava"
     title = "Strava"
@@ -63,11 +63,11 @@ copyright = "Released under the MIT license."
   [[params.socialIcons]]
     icon = ""
     title = ""
-    url = ""     
+    url = ""    
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "E-mail"
-    url = "mailto:mkusper@bydlosoft.com"   
+    url = "mailto:mkusper@bydlosoft.com"  
   # [[params.socialIcons]]
   #   icon = "ai ai-google-scholar"
   #   title = "Scholar"
