@@ -37,17 +37,29 @@ copyright = "Released under the MIT license."
     title = "Github"
     url = "https://github.com/ns-mkusper"
   [[params.socialIcons]]
+    icon = ""
+    title = ""
+    url = ""   
+  [[params.socialIcons]]
     icon = "fab fa-gitlab"
     title = "Gitlab"
     url = "https://gitlab.com/mkusper"
   [[params.socialIcons]]
+    icon = ""
+    title = ""
+    url = ""     
+  [[params.socialIcons]]
     icon = "fab fa-goodreads"
     title = "Goodreads"
-    url = "https://www.goodreads.com/user/show/33494702-tadek"    
+    url = "https://www.goodreads.com/user/show/33494702-tadek"
+  [[params.socialIcons]]
+    icon = ""
+    title = ""
+    url = ""     
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "E-mail"
-    url = "mailto:mkusper@bydlosoft.com"    
+    url = "mailto:mkusper@bydlosoft.com"   
   # [[params.socialIcons]]
   #   icon = "ai ai-google-scholar"
   #   title = "Scholar"
@@ -64,11 +76,11 @@ copyright = "Released under the MIT license."
   [[menu.main]]
     name = "Projects"
     url = "/misc/projects"
-    weight = 1
+    weight = 2
   [[menu.main]]
     name = "About"
     url = "/misc/about"
-    weight = 2
+    weight = 3
   # [[menu.main]]
   #   name = "Resume"
   #   url = "/resume.pdf"
@@ -79,7 +91,7 @@ copyright = "Released under the MIT license."
   [[menu.main]]
     name = "Contact"
     url = "/misc/contact"
-    weight = 3
+    weight = 4
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
