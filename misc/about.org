@@ -21,7 +21,7 @@ I started my Software journey by contibuting to open-source reverse engineering 
 
 Besides Software I'm interested in personal development (finances, fitness, diet). I began cycling with a power meter in in 2019 and have been contributing to open-source software in the endurance athletics space ([[https://www.goldencheetah.org/][GoldenCheetah]]).
 
-I also [[https://www.goodreads.com/user/show/33494702-tadek][like books]] and play bad guitar.
+I also [[https://www.goodreads.com/user/show/33494702-tadek][like books]], play bad guitar. You can normally find me [[https://www.strava.com/athletes/33789621][on my bike]].
 
 
 * Interests

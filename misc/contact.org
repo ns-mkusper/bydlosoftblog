@@ -10,3 +10,4 @@
 - [[https://github.com/ns-mkusper][Github]]
 - [[https://gitlab.com/mkusper][Gitlab]]
 - [[https://www.goodreads.com/user/show/33494702-tadek][Goodreads]]
+- [[https://www.strava.com/athletes/33789621][Strava]]
