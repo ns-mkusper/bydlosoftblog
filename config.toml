@@ -8,6 +8,11 @@ math = false          # enable KaTeX (https://katex.org/) globally
 googleAnalytics = ""  # add your tracking id
 copyright = "Released under the MIT license."
 
+# preserve whitespace in HTML formatting within theme
+# see: https://github.com/tdewolff/minify/issues/240
+[minify.tdewolff.html]
+keepWhitespace=true
+
 [params]
   author = "Mark Kusper"
   description = "Software, Data, Artificial Intelligence, Reverse Engineering and Personal Development."
@@ -45,25 +50,13 @@ copyright = "Released under the MIT license."
     title = "Gitlab"
     url = "https://gitlab.com/mkusper"
   [[params.socialIcons]]
-    icon = ""
-    title = ""
-    url = ""    
-  [[params.socialIcons]]
     icon = "fab fa-goodreads"
     title = "Goodreads"
     url = "https://www.goodreads.com/user/show/33494702-tadek"
   [[params.socialIcons]]
-    icon = ""
-    title = ""
-    url = ""    
-  [[params.socialIcons]]
     icon = "fab fa-strava"
     title = "Strava"
     url = "https://www.strava.com/athletes/mkusper"
-  [[params.socialIcons]]
-    icon = ""
-    title = ""
-    url = ""    
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "E-mail"
