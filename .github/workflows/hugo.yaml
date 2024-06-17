@@ -25,8 +25,13 @@ jobs:
       with:
         version: 26.3
 
+    - name: Create required hugo directories
+      run: mkdir -p static
+
     - name: Emacs dir setup
-      run: mkdir -p ~/.emacs.d/ && touch ~/.emacs.d/.org-id-locations
+      run: |
+        mkdir -p ~/.emacs.d/
+        touch ~/.emacs.d/.org-id-locations
 
     - name: Export Posts Org file to Markdown
       run: for i in ./post/*.org;do emacs "$i" --batch -L ../tomelr -L ../ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill;done
