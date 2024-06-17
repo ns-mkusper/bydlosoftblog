@@ -33,7 +33,7 @@ Stay tuned! I have a number of things in flight I'm planning the publishing as t
 - Moving from Terraform HCL to Terraform CDK
 - Options for free cloud credits for research projects
   
-*** *Emacs*
+*** Emacs
 - Signal processing for Emacs shell on Windows
 - Emacs as a database client
 - Portable debugging config in Emacs
