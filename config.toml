@@ -42,10 +42,6 @@ keepWhitespace=true
     title = "Github"
     url = "https://github.com/ns-mkusper"
   [[params.socialIcons]]
-    icon = ""
-    title = ""
-    url = ""  
-  [[params.socialIcons]]
     icon = "fab fa-gitlab"
     title = "Gitlab"
     url = "https://gitlab.com/mkusper"
