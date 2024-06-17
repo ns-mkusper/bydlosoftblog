@@ -33,6 +33,9 @@ Stay tuned! I have a number of things in flight I'm planning to publish as time 
 - Moving from Terraform HCL to Terraform CDK
 - Options for free cloud credits for research projects
   
+*** Reverse Engineering
+- Creating a SoftICE clone in 2025
+
 *** Emacs
 - Signal processing for Emacs shell on Windows
 - Emacs as a database client
