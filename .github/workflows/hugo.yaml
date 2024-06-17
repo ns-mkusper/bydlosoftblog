@@ -25,8 +25,11 @@ jobs:
       with:
         version: 26.3
 
-    - name: Export Org file to Markdown
-      run: emacs ./post/hello.org --batch -L ./tomelr -L ./ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
+    - name: Export Posts Org file to Markdown
+      run: emacs ./post/*.org --batch -L ../tomelr -L ../ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
+
+    - name: Export Misc Org file to Markdown
+      run: emacs ./post/*.org --batch -L ../tomelr -L ../ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
