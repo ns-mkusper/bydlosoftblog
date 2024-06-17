@@ -7,9 +7,9 @@
 
 * Blog Reboot
 
-I've decided to reboot this development blog after years of stasis. With the last post being in 2016 I'm starting anew to refocus on what topics in Software and personal development I'm interested in today.
+I've decided to reboot this development blog after years of stasis. With the last post being in 2016 I'm starting anew to refocus on what topics in Software and Personal Development I'm interested in today.
 
-Stay tuned! I have a number of things in flight I'm planning the publishing as time allows:
+Stay tuned! I have a number of things in flight I'm planning to publish as time allows:
 
 ** Future Posts
 *** Programming
