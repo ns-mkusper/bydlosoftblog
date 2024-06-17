@@ -17,7 +17,7 @@ jobs:
     - name: Clone Org-mode exporter
       run: git clone https://github.com/kaushalmodi/ox-hugo.git ox-hugo
 
-    - name: Clone Org-mode exporter
+    - name: Clone tomelr
       run: git clone https://github.com/kaushalmodi/tomelr.git tomelr
 
     - name: Setup emacs
@@ -26,7 +26,7 @@ jobs:
         version: 26.3
 
     - name: Export Org file to Markdown
-      run: emacs ./post/hello.org --batch -L ./tomelr -l tomelr.el -L ./ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
+      run: emacs ./post/hello.org --batch -L ./tomelr -L ./ox-hugo -l ox-hugo.el --eval='(org-hugo-export-wim-to-md t)' --kill
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
