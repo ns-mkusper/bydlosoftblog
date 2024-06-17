@@ -1,16 +1,26 @@
 title = "Bydlosoft"
 baseURL = "https://bydlosoft.com"
 theme = "researcher"
-disableKinds = ["taxonomy", "terms"]
+disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false          # enable KaTeX (https://katex.org/) globally
 googleAnalytics = ""  # add your tracking id
+copyright = "Released under the MIT license."
 
 [params]
   author = "Mark Kusper"
-  description = "This is a personal development blog meant to collect my thoughts on technology, software, data, artificial intelligence, reverse engineering and personal development in a public place."
+  description = "Personal development blog: technology, software, data, artificial intelligence, reverse engineering and personal development."
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
+  info = [
+    "- Software Developer -",
+  ]
+  subinfo = [
+    "Big Data",
+    "Machine Learning",
+    "Reverse Engineering",
+    "Personal Development",    
+  ]  
   [params.footer]
     text = "By Mark Kusper"
     url = "https://github.com/ns-mkusper"
@@ -22,9 +32,13 @@ googleAnalytics = ""  # add your tracking id
     colorBlack = "#222222"
     colorRed = "#dc3545"
   [[params.socialIcons]]
-    icon = "fab fa-twitter"
-    title = "Twitter"
-    url = "https://twitter.com/"
+    icon = "fab fa-github"
+    title = "Github"
+    url = "https://github.com/ns-mkusper"
+  [[params.socialIcons]]
+    icon = "fab fa-gitlab"
+    title = "Gitlab"
+    url = "https://gitlab.com/mkusper"
   [[params.socialIcons]]
     icon = "fas fa-envelope"
     title = "E-mail"
@@ -56,9 +70,3 @@ googleAnalytics = ""  # add your tracking id
 
 [markup.goldmark.renderer]
   unsafe = true  # allow raw HTML in markdown files
-
-
-canonifyurls = true
-relativeURLS = false
-
-copyright = "Released under the MIT license."
