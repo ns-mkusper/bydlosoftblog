@@ -15,11 +15,7 @@
 
 * About Me 
 
-I'm a Software Engineer with a mixed background in Systems, Data-Intensive Applications, Web Backend and Machine Learning. Over the last decade of my career I've been focusing on creating platforms for building Big Data and Machine Learning products.
-
-Besides Software I'm interested in personal development (finances, fitness, diet). I began cycling with a power meter in in 2019 and have been contributing to open-source software in the endurance athletics space ([[https://www.goldencheetah.org/][GoldenCheetah]]).
-
-I also [[https://www.goodreads.com/user/show/33494702-tadek][like books]] and play bad guitar. You can normally find me [[https://www.strava.com/athletes/mkusper][on my bike]].
+I'm a Software Engineer with a mixed background in Systems, Data-Intensive Applications, Web Backend and Machine Learning. Over the last decade of my career I've been focusing on creating platforms for building Big Data and Machine Learning products. I also contribute to open-source software in the reverse engineering space.
 
 
 * Interests
@@ -27,3 +23,7 @@ I also [[https://www.goodreads.com/user/show/33494702-tadek][like books]] and pl
 My main interests in technology revolve around building more capable and cost-effective Data/ML platform solutions. I'm consistently trying to improve my own engineering rigor in developing systems and software, and helping others to do the same.
 
 I started my Software journey by contibuting to open-source reverse engineering projects ([[https://macroquest.org/][MacroQuest]] & [[https://www.eqemulator.org/][EQEmu]]) and it remains a fascination of mine. I am hoping to contribute more to these efforts and document my discoveries in this blog.
+
+Besides Software I'm interested in personal development (finances, fitness, diet). I began cycling with a power meter in in 2019 and have been contributing to open-source software in the endurance athletics space ([[https://www.goldencheetah.org/][GoldenCheetah]]).
+
+I also [[https://www.goodreads.com/user/show/33494702-tadek][like books]] and play bad guitar. You can normally find me [[https://www.strava.com/athletes/mkusper][on my bike]].

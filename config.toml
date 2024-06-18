@@ -14,7 +14,7 @@ copyright = "Released under the MIT license."
 keepWhitespace=true
 
 [params]
-  author = "Mark Kusper"
+  author = "Mark K"
   description = "Software, Data, Artificial Intelligence, Reverse Engineering and Personal Development."
   favicon = "favicon.ico"  # path to a .ico to use as favicon
   logo = ""  # url or path to a logo to put in the header
