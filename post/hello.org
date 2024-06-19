@@ -17,13 +17,13 @@ Stay tuned! I have a number of things in flight I'm planning to publish as time 
 - [[https://docs.python.org/3/whatsnew/3.12.html#optimizations][Python 3.12 optimizations]]
 - Why I still use [[https://osdn.net/projects/mingw/][MinGW]] and [[https://www.msys2.org/][MSYS]]
 - Performance comparison of popular Kafka libraries
-- GPU-accelerated
+- GPU-accelerated video transcoding using CUDA
 
 *** Machine Learning
 - Continuous learning in production with Kafka
 - Fine-tuning foundational LLMs with fine literature in my home lab
 - Building an open-source recommendation engine for Classic Literature
-- Evaluating ML Systems (multi-part) in productions
+- Evaluating ML Systems (multi-part) in production
   - RAG
   - Agents
 
