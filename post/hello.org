@@ -1,6 +1,6 @@
 #+hugo_base_dir: ../
 #+hugo_section: posts
-#+hugo_auto_set_lastmod: t
+#+hugo_lastmod: 2024-06-17
 
 #+title: Blog Reboot
 #+hugo_tags: misc ideas
@@ -19,6 +19,7 @@ Stay tuned! I have a number of things in flight I'm planning to publish as time 
 - Performance comparison of popular Kafka libraries
   
 *** Machine Learning
+- Evaluating ML Systems (multi-part)
 - Continuous learning in production with Kafka
 - Fine-tuning foundational LLMs with fine literature in my home lab
 - Building an open-source recommendation engine for Classic Literature
