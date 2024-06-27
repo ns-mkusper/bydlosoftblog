@@ -24,6 +24,6 @@ My main interests in technology revolve around building more capable and cost-ef
 
 I started my Software journey by contibuting to open-source reverse engineering projects ([[https://macroquest.org/][MacroQuest]] & [[https://www.eqemulator.org/][EQEmu]]) and it remains a fascination of mine. I am hoping to contribute more to these efforts and document my discoveries in this blog.
 
-Besides Software I'm interested in personal development (finances, fitness, diet). I began cycling with a power meter in in 2019 and have been contributing to open-source software in the endurance athletics space ([[https://www.goldencheetah.org/][GoldenCheetah]]).
+Besides Software I'm interested in personal development and continuously learning. I began cycling with a power meter in in 2019 and have been contributing to open-source software in the endurance athletics space ([[https://www.goldencheetah.org/][GoldenCheetah]]).
 
 I also [[https://www.goodreads.com/user/show/33494702-tadek][like books]] and play bad guitar. You can normally find me [[https://www.strava.com/athletes/mkusper][on my bike]].
