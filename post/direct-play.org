@@ -91,7 +91,7 @@ Can't we /transcode/ media streams on the fly to all these users? We have /two/ 
 Unfortunately, media stream transcoding limitations prevent us from relying on it here:
 
 1. Even more modern GPUs than ours only support a handful of concurrent transcoding processes at a time.[fn:3] Anything else would need to be done by the already-stressed CPU, potentially making the entire server less responsive.
-2. Transcoding can be an error-prone and somewhat unreliable process [fn:4] which is leading to many users seeing transcoding or conversion errors when attempting to play videos.
+2. Transcoding can be an error-prone and unreliable process [fn:4] which leads to many users seeing transcoding or conversion errors when attempting to play videos.
 3. Transmitting transcoded media streams can actually /increase/ the network bandwith usage of compared to sending the raw stream depending on the output stream attributes.
 
 
