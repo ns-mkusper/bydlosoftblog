@@ -13,7 +13,7 @@ One of the most important pieces of my home lab is my media server. It's one of 
 
 ** Problem
 
-My video streaming server on average has concurrent 6 users and as many as 20 simultaneously watching videos. They're split across 4 continents, stream on all different kinds of devices (browser, mobile, TV, tablets) and have varying levels of tech know-how, but /all/ of them want high-quality video and audio to start playing when they press the play button and to encounter no buffering beyond maybe a few seconds at the start.
+My video streaming server on average has 6 concurrent users and gets as many as 20 during peak hours. They're split across 4 continents, stream on all different kinds of devices (browser, mobile, TV, tablets) and have varying levels of tech know-how, but /all/ of them want high-quality video and audio to start playing when they press the play button and to encounter no buffering beyond maybe a few seconds at the start.
 
 That's fair, eh? After all, when I use Youtube or Netflix I just hit the play button and everything works --- I can't even remember the last time a video began buffering with those services! These are the kinds of expectations we're looking to satisfy here as economically as possible.
 
