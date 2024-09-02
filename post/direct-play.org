@@ -86,11 +86,11 @@ So if the software is so great what is there left for us to do and why write thi
 
 *** Transcoding
 
-Can't we /transcode/ media streams on the fly to all these users? We have /two/ GPUs, after all, and Plex[fn:1]/Jellyfin[fn:2] enable transcoding by default!
+Can't we /transcode/ media streams on the fly to all these users? We have /two/ GPUs, after all, and Plex[fn:1] / Jellyfin[fn:2] enable transcoding by default!
 
 Unfortunately, media stream transcoding limitations prevent us from relying on it here:
 
-1. Even more modern GPUs than ours only support a handful of concurrent transcoding processes at a time. [fn:3] Anything else would need to be done by the already-stressed CPU, potentially making the entire server less responsive.
+1. Even more modern GPUs than ours only support a handful of concurrent transcoding processes at a time.[fn:3] Anything else would need to be done by the already-stressed CPU, potentially making the entire server less responsive.
 2. Transcoding can be an error-prone and somewhat unreliable process [fn:4] which is leading to many users seeing transcoding or conversion errors when attempting to play videos.
 3. Transmitting transcoded media streams can actually /increase/ the network bandwith usage of compared to sending the raw stream depending on the output stream attributes.
 
@@ -124,7 +124,7 @@ Our solution is the single /best/ optimization I've come across for home media s
 
 Direct Play is a scenario where our media files can be streamed to our users *without any modification* by the streaming service. This means we can remove all the expensive overhead and any chance of failures of on-the-fly transcoding except for when it is absolutely needed.
 
-This scenario has the following requirements: [fn:5]
+This scenario has the following requirements:[fn:5]
 
 1. Is stored in a compatible file container
 2. Is encoded in a compatible bitrate
@@ -134,7 +134,7 @@ This scenario has the following requirements: [fn:5]
 
 **** Direct Play Compatibility
 
-So how do we ensure /all/ users meet with this scenario /every/ video? We can convert all our media well in advance of when they're played to make sure each of the four requirements are satisfied. We can do this no matter what device or app they're playing their media on (so long as we know their Direct Play requirements). Here's a visualization of the conversion steps needed to accomplish this for /all/ Google Chromecast devices[fn:6]:
+So how do we ensure /all/ users meet with this scenario /every/ video? We can convert all our media well in advance of when they're played to make sure each of the four requirements are satisfied. We can do this no matter what device or app they're playing their media on (so long as we know their Direct Play requirements). Here's a visualization of the conversion steps needed to accomplish this for /all/ Google Chromecast devices:[fn:6]
 
 #+begin_center
 #+attr_html: :width 1000px
@@ -168,9 +168,9 @@ By converting our media files to Direct-Play-compatible versions we ensure that 
 
 **** Sonarr/Radarr integration
 
-This program also comes out-of-the-box with Sonarr/Radarr integration. See the docs for adding it as a [[https://github.com/ns-mkusper/direct-play-nice?tab=readme-ov-file#sonarr--radarr][Custom Script Connection]].
+This program also comes out-of-the-box with Sonarr / Radarr integration. See the docs for adding it as a [[https://github.com/ns-mkusper/direct-play-nice?tab=readme-ov-file#sonarr--radarr][Custom Script Connection]].
 
-**** Why not just use the conversion feature of Plex/Jellyfin?
+**** Why not just use the conversion feature of Plex / Jellyfin?
 
 Most of users /never/ want to think about the actual video files or streams they're watching. All they care about is hitting the play button and getting HQ video to play uninterrupted. Most would give up without even selecting a different version of the video, since that's a lot less intuitive than selecting the quality of the video.
 
