@@ -148,7 +148,7 @@ So how do we ensure /all/ users meet with this scenario /every/ video? We can co
 
 *** direct-play-nice
 
-In order to make it easier to ahead-of-time convert all media to Direct Play Compatible video formats, I created a CLI utility written in Rust called [[https://github.com/ns-mkusper/direct-play-nice][direct-play-nice]] which uses [[https://www.ffmpeg.org/][FFmpeg]] to convert any video file to a set of video, audio and subtitle codecs which satisfy the Direct Play requirements of all streaming devices you specify (you can also specify 'all' for the --streaming-devices argument):
+In order to make it easier to ahead-of-time convert all media to Direct Play Compatible video formats, I created a CLI utility written in Rust called [[https://github.com/ns-mkusper/direct-play-nice][direct-play-nice]] which uses [[https://www.ffmpeg.org/][FFmpeg]] to convert any video file to a set of video, audio and subtitle codecs which satisfy the Direct Play requirements of all streaming devices you specify (you can also specify 'all' for the ~--streaming-devices~ argument):
 
 #+begin_src
   Usage: direct_play_nice.exe [OPTIONS] <INPUT_FILE> <OUTPUT_FILE>
