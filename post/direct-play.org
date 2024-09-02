@@ -92,7 +92,7 @@ Unfortunately, media stream transcoding limitations prevent us from relying on i
 
 1. Even more modern GPUs than ours only support a handful of concurrent transcoding processes at a time. [fn:3] Anything else would need to be done by the already-stressed CPU, potentially making the entire server less responsive.
 2. Transcoding can be an error-prone and somewhat unreliable process [fn:4] which is leading to many users seeing transcoding or conversion errors when attempting to play videos.
-3. [ ] Transmitting transcoded media streams can actually /increase/ the network bandwith Husage of compared to sending the raw stream depending on the output stream attributes.
+3. Transmitting transcoded media streams can actually /increase/ the network bandwith usage of compared to sending the raw stream depending on the output stream attributes.
 
 
 *** Resource Contention
@@ -190,7 +190,7 @@ When running the same test we did previously, except now with the video converte
 [[file:gpu_utilization_low_utilization.png]]
 [[file:network_bandwidth_low_utilization.png]]
 
-During this test my 20 streaming video sessions were able to play just fine with no load on the GPUs (allowing for adhoc transcoding jobs when needed), all my service web GUIs remain responsive and even my pitiful network upload speed limit was not reached.  Maybe we /*can*/ compete with those premium video streaming services after all!
+During this test my 20 streaming video sessions were able to play just fine with no load on the GPUs (allowing for ad hoc transcoding jobs when needed), all my service web GUIs remain responsive and even my pitiful network upload speed limit was not reached.  Maybe we /*can*/ compete with those premium video streaming services after all!
 
 ** Conclusion
 
