@@ -181,7 +181,7 @@ This program also comes out-of-the-box with Sonarr / Radarr integration. See the
 
 **** Why not just use the conversion feature of Plex / Jellyfin?
 
-Most of users /never/ want to think about the actual video files or streams they're watching. All they care about is hitting the play button and getting HQ video to play uninterrupted. Most would give up without even selecting a different version of the video, since that's a lot less intuitive than selecting the quality of the video.
+All my users /never/ want to think about the actual video files or streams they're watching. All they care about is hitting the play button and getting HQ video to play uninterrupted. Most would give up without even selecting a different version of the video, since that's a lot less intuitive than selecting the quality of the video.
 
 *** Performance
 
