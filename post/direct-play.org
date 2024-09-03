@@ -30,7 +30,7 @@ I run a typical 'junkbox' home media server without much in terms of hardware or
 
 **** Hardware
 
-  The server itself is just an has-been gaming PC that's past its prime:
+  The server itself is just a has-been gaming PC that's past its prime:
 
   #+begin_src
   CPU: quad core Intel Core i7-4790K (-MT MCP-) speed/min/max: 4397/800/4400 MHz
