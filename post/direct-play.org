@@ -43,7 +43,7 @@ I run a typical 'junkbox' home media server without much in terms of hardware or
     Device-2: NVIDIA GM206 [GeForce GTX 960] driver: nvidia v: 560.35.03
     Display: unspecified server: X.org v: 1.21.1.13 driver: X: loaded: N/A
     API: EGL v: 1.5 drivers: kms_swrast,nvidia,swrast platforms: gbm,surfaceless,device
-    API: OpenGL v: 4.6.0 compat-v: 4.5 vendor: mesa v: 24.1.6-arch1.1 note: console (EGL sourced)
+    API: OpenGL v: 4.6.0 compat-v: 4.5 vendor: mesa v: 24.1.6 note: console (EGL sourced)
       renderer: llvmpipe (LLVM 18.1.8 256 bits), NVIDIA GeForce GTX 960/PCIe/SSE2
   #+end_src
   
