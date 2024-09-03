@@ -7,7 +7,7 @@
 
 * Direct Play: THE Best Home Video Streaming Server Optimization
 
-I run any service I can on my home network. Why? It gives me the fastest, most reliable access to what I need and gives me the most control. I also get opportunity to build and tune fairly complex systems, usually having to rely on and consider what the big service providers are doing to solve the very same problems. Replacing Netflix, Hulu, Disney+, etc with an old gaming PC and some open source software requires some shrewd engineering to deliver a similar user experience and service quality.
+I run any service I can on my home network. Why? It gives me the fastest, most reliable access to what I need and gives /me/ control. I also get opportunity to build and tune fairly complex systems, usually having to rely on and consider what the big service providers are doing to solve the very same problems. Replacing Netflix, Hulu, Disney+, etc with an old gaming PC and some open source software requires some shrewd engineering to deliver a similar user experience and service quality.
 
 One of the most important pieces of my home lab is my media server. It's one of the only things in my home lab I interact with more as an actual user than as someone trying to build or fix something, and more importantly it's also used by over a dozen of my friends and family. That being said, it can be a rather needy service in terms of the amount of engineering and tuning TLC needed for it to run optimally. 
 
@@ -92,7 +92,7 @@ Unfortunately, media stream transcoding limitations prevent us from relying on i
 
 1. Even more modern GPUs than ours only support a handful of concurrent transcoding processes at a time.[fn:3] Anything else would need to be done by the already-stressed CPU, potentially making the entire server less responsive.
 2. Transcoding can be an error-prone and unreliable process[fn:4] which leads to many users encountering transcoding or conversion errors when attempting to play videos.
-3. Transmitting transcoded media streams can actually /increase/ the network bandwith usage of compared to sending the raw stream depending on the output stream attributes.
+3. Transmitting transcoded media streams can actually /increase/ the network bandwith usage compared to sending the raw stream depending on the output stream attributes.
 
 
 *** Resource Contention
