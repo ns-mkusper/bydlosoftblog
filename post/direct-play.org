@@ -9,7 +9,7 @@
 
 I run any service I can on my home network. Why? It gives me the fastest, most reliable access to what I need and gives me the most control. I also get opportunity to build and tune fairly complex systems, usually having to rely on and consider what the big service providers are doing to solve the very same problems. Replacing Netflix, Hulu, Disney+, etc with an old gaming PC and some open source software requires some shrewd engineering to deliver a similar user experience and service quality.
 
-One of the most important pieces of my home lab is my media server. It's one of the only things in my home lab I interact with more as an actual user than as someone trying to build or fix something, and more importantly it's also used by over a dozen of my friends and family. That being said, it can be a rather needy service in terms of the amount of engineering and tuning TLC needed for it to run optimally for all my users. 
+One of the most important pieces of my home lab is my media server. It's one of the only things in my home lab I interact with more as an actual user than as someone trying to build or fix something, and more importantly it's also used by over a dozen of my friends and family. That being said, it can be a rather needy service in terms of the amount of engineering and tuning TLC needed for it to run optimally. 
 
 ** Problem
 
