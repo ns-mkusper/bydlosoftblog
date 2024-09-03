@@ -185,7 +185,7 @@ All my users /never/ want to think about the actual video files or streams they'
 
 *** Performance
 
-When running the same test we did previously, except now with the video converted to be Direct-Play-compatible, we a significantly improved performance profile although the quality has not changed:
+When running the same test we did previously, except now with the video converted to be Direct-Play-compatible, we get a significantly improved performance profile although the quality has not changed:
 
 #+begin_center
 /(Imagine 20 of these)/
