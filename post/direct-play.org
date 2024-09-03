@@ -103,7 +103,6 @@ Given our limited resources there's bound to be resource contention once we atte
 /(Imagine 20 of these)/
 
 #+attr_html: :width 342px
-#+attr_latex: :width 342px
 [[file:transcoding-video.png]]
 #+end_center
 
@@ -134,21 +133,31 @@ This scenario has the following requirements:[fn:5]
 
 **** Direct Play Compatibility
 
-So how do we ensure /all/ users meet with this scenario /every/ video? We can convert all our media well in advance of when they're played to make sure each of the four requirements are satisfied. We can do this no matter what device or app they're playing their media on (so long as we know their Direct Play requirements). Here's a visualization of the conversion steps needed to accomplish this for /all/ Google Chromecast devices:[fn:6]
+So how do we ensure that /all/ users meet with this scenario /every/ video? We can convert all our media well in advance of when they're played to make sure each of the four requirements are satisfied. We can do this no matter what device or app they're playing their media on (so long as we know their Direct Play requirements). Here's a visualization of the conversion steps needed to accomplish this for /all/ Google Chromecast devices:[fn:6]
 
 #+begin_center
-#+attr_html: :width 1000px
-[[file:container_subtitle_conversion_graph.png]]
+#+attr_html: :width 600px
+[[file:container-transcode-graph.png]]
 #+end_center
 
 #+begin_center
-#+attr_html: :width 1000px
-[[file:video_audio_conversion_graph.png]]
+#+attr_html: :width 600px
+[[file:video-transcode-graph.png]]
+#+end_center
+
+#+begin_center
+#+attr_html: :width 600px
+[[file:audio-transcode-graph.png]]
+#+end_center
+
+#+begin_center
+#+attr_html: :width 600px
+[[file:subtitle-transcode-graph.png]]
 #+end_center
 
 *** direct-play-nice
 
-In order to make it easier to ahead-of-time convert all media to Direct Play Compatible video formats, I created a CLI utility written in Rust called [[https://github.com/ns-mkusper/direct-play-nice][direct-play-nice]] which uses [[https://www.ffmpeg.org/][FFmpeg]] to convert any video file to a set of video, audio and subtitle codecs which satisfy the Direct Play requirements of all streaming devices you specify (you can also specify 'all' for the ~--streaming-devices~ argument):
+In order to make it easier to ahead-of-time convert all media to Direct Play Compatible video formats, I created a CLI utility, written in Rust, called [[https://github.com/ns-mkusper/direct-play-nice][direct-play-nice]] which uses [[https://www.ffmpeg.org/][FFmpeg]] to convert any input video file to one with video, audio and subtitle streams which satisfy the Direct Play requirements of all the streaming devices you specify (or you can also specify 'all' for the ~--streaming-devices~ argument):
 
 #+begin_src
   Usage: direct_play_nice.exe [OPTIONS] <INPUT_FILE> <OUTPUT_FILE>
@@ -164,7 +173,7 @@ In order to make it easier to ahead-of-time convert all media to Direct Play Com
     -V, --version                                Print version
   #+end_src
 
-By converting our media files to Direct-Play-compatible versions we ensure that Direct Play scenario is encountered by every user each time they play any media on our streaming server.
+By converting our media files to Direct-Play-compatible versions we ensure that the Direct Play scenario is encountered by every user each time they play any media on our streaming server.
 
 **** Sonarr/Radarr integration
 
@@ -182,7 +191,6 @@ When running the same test we did previously, except now with the video converte
 /(Imagine 20 of these)/
 
 #+attr_html: :width 342px
-#+attr_latex: :width 342px
 [[file:direct-play-video.png]]
 #+end_center
 
