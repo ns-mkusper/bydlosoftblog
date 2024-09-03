@@ -86,7 +86,7 @@ So if the software is so great what is there left for us to do and why write thi
 
 *** Transcoding
 
-Can't we /transcode/ media streams on the fly to all these users? We have /two/ GPUs, after all, and Plex[fn:1] / Jellyfin[fn:2] enable transcoding by default!
+Can't we /transcode/ media streams on the fly to all these users? We have /two/ GPUs after all, and Plex[fn:1] / Jellyfin[fn:2] enable transcoding by default!
 
 Unfortunately, media stream transcoding limitations prevent us from relying on it here:
 
