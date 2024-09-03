@@ -123,7 +123,7 @@ Our solution is the single /best/ optimization I've come across for home media s
 
 Direct Play is a scenario where our media files can be streamed to our users *without any modification* by the streaming service. This means we can remove all the expensive overhead and any chance of failures of on-the-fly transcoding except for when it is absolutely needed.
 
-This scenario has the following requirements:[fn:5]
+This scenario has the following requirements for the streamed video file:[fn:5]
 
 1. Is stored in a compatible file container
 2. Is encoded in a compatible bitrate
