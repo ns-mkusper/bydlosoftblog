@@ -122,6 +122,10 @@ As we can see from the above charts, our key resources are completely exhausted.
 
 Our solution is the single /best/ optimization I've come across for home media streaming servers: ahead-of-time convert /all/ our media for maximum Direct Play compatibility.
 
+| Default Path                                   | Happy Path                                 |
+|-----------------------------------------------|-------------------------------------------|
+| [[file:transcoding_flowchart.svg]]            | [[file:direct_play_flowchart.svg]]        |
+
 *** Direct Play
 
 Direct Play is a scenario where our media files can be streamed to our users *without any modification* by the streaming service. This means we can remove all the expensive overhead and any chance of failures of on-the-fly transcoding except for when it is absolutely needed.
