@@ -6,7 +6,7 @@
 #+hugo_tags: misc homelab plex jellyfin video optimization direct-play
 
 
-/*TL;DR:* Preemptively convert videos files to guarantee Direct Play to avoid expensive & error-prone on-the-fly transcoding operations during playtime./
+/*TL;DR:* Preemptively convert video files to guarantee Direct Play to avoid expensive & error-prone on-the-fly transcoding operations during playtime./
 
 * Direct Play: THE Best Home Video Streaming Server Optimization
 
