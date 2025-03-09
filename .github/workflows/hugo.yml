@@ -45,7 +45,9 @@ jobs:
           submodules: recursive
 
       - name: Clone Org-mode exporter
-        run:     git clone --depth 1 --branch 0.12.2 https://github.com/kaushalmodi/ox-hugo.git ox-hugo
+        env:
+          OX_HUGO_VERSION: v0.12.2
+        run: git clone --depth 1 --branch $OX_HUGO_VERSION https://github.com/kaushalmodi/ox-hugo.git ox-hugo
 
       - name: Clone tomelr
         run: git clone https://github.com/kaushalmodi/tomelr.git tomelr
