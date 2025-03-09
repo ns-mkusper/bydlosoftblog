@@ -8,7 +8,7 @@
 
 /*TL;DR:* Pre-emptively convert video files to guarantee Direct Play to avoid expensive & error-prone on-the-fly transcoding operations during playtime./
 
-* Direct Play: THE Best Home Video Streaming Server Optimization
+* Direct Play: /THE/ Best Home Video Streaming Server Optimization
 
 I run any service I can on my home network. Why? It gives me the fastest, most reliable access to what I need and gives /me/ control. I also get the opportunity to build and tune fairly complex systems, usually having to rely on and consider what the big service providers are doing to solve the very same problems. Replacing Netflix, Hulu, Disney+, etc with an old gaming PC and some open source software requires some shrewd engineering to deliver a similar user experience and service quality.
 
