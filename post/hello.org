@@ -1,6 +1,6 @@
 #+hugo_base_dir: ../
 #+hugo_section: posts
-#+hugo_lastmod: 2024-06-17
+#+hugo_lastmod: 2025-06-17
 
 #+title: Blog Reboot
 #+hugo_tags: misc ideas

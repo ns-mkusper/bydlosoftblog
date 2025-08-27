@@ -1,6 +1,6 @@
 #+hugo_base_dir: ../
 #+hugo_section: posts
-#+hugo_lastmod: 2024-09-02
+#+hugo_lastmod: 2025-08-02
 
 #+title: Direct Play: The Best Home Video Streaming Server Optimization
 #+hugo_tags: misc homelab plex jellyfin video optimization direct-play
