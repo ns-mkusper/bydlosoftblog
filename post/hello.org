@@ -14,7 +14,7 @@ Stay tuned! I have a number of things in flight I'm planning to publish as time 
 ** Future Posts
 *** Programming
 - High-performance Python
-- [[https://docs.python.org/3/whatsnew/3.12.html#optimizations][Python 3.12 optimizations]]
+- [[https://docs.python.org/3/whatsnew/3.12.html#optimizations][Python 3.13 optimizations]]
 - Why I still use [[https://osdn.net/projects/mingw/][MinGW]] and [[https://www.msys2.org/][MSYS]]
 - Performance comparison of popular Kafka libraries
 - GPU-accelerated video transcoding using CUDA
