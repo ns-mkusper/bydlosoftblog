@@ -15,14 +15,14 @@
 
 * About Me 
 
-I'm a Software Engineer with a mixed background in Distributed Systems, Data-Intensive Applications, Web Backend and Machine Learning. Over the last decade of my career I've been focusing on creating platforms for building Big Data and Machine Learning products using open-source software. I also contribute to open-source software mostly in these areas and in the reverse engineering space.
+I'm a Software Engineer with a mixed background in Distributed Systems, Data-Intensive Applications, Web Backend and Machine Learning. Over the last decade of my career I've been focusing on creating platforms for building Big Data and Machine Learning products using open-source software. I also contribute to open-source software mostly in these areas and in the Reverse Engineering space.
 
 
 * Interests
 
 My main interests in technology revolve around reserve engineering, building more capable and cost-effective Data/ML platform solutions and just about any software that can improve people's lives. I'm consistently trying to improve my own engineering rigor in developing systems and software, and in helping others to do the same.
 
-I started my Software journey by contibuting to open-source reverse engineering projects ([[https://macroquest.org/][MacroQuest]] & [[https://www.eqemulator.org/][EQEmu]]) and it remains a fascination of mine. I am hoping to contribute more to these efforts and document my discoveries in this blog.
+I started my Software journey by contibuting to open-source Reverse Engineering projects ([[https://macroquest.org/][MacroQuest]] & [[https://www.eqemulator.org/][EQEmu]]) and it remains a fascination of mine. I am hoping to contribute more to these efforts and document my discoveries in this blog.
 
 Besides Software I'm interested in personal development and continuously learning. I began cycling with a power meter in in 2019 and have been contributing to open-source software in the endurance athletics space ([[https://www.goldencheetah.org/][GoldenCheetah]]).
 
