@@ -3,7 +3,7 @@
 #+hugo_lastmod: 2025-08-02
 
 #+title: Direct Play: The Best Home Video Streaming Server Optimization
-#+hugo_tags: misc homelab plex jellyfin video optimization direct-play
+#+hugo_tags: misc homelab plex jellyfin video optimization direct-play rust
 
 
 /*TL;DR:* Pre-emptively convert video files to guarantee Direct Play to avoid expensive & error-prone on-the-fly transcoding operations during playtime./
